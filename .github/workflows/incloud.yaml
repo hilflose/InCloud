@@ -84,7 +84,7 @@ jobs:
           git add output/dirout.tar.gz
       - name: Commit results to Github
         run: |
-          git config --local user.email "hilflose@gmail.com"
+          git config --local user.email "827735678@qq.com"
           git config --global user.name "hilflose"
           git commit -m "InCloud Report" -a --allow-empty
       - name: Push changes
